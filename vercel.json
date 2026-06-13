@@ -9,7 +9,6 @@
   "routes": [
     { "src": "/api/auth/signup", "dest": "/api/auth/signup.js" },
     { "src": "/api/auth/signin", "dest": "/api/auth/signin.js" },
-    { "src": "/api/book", "dest": "/api/book.js" },
-    { "src": "/api/health", "dest": "/api/health.js" }
+    { "src": "/api/book", "dest": "/api/book.js" }
   ]
 }
