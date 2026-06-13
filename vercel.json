@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
+      "src": "api/**/*.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "server.js"
-    }
+    { "src": "/api/auth/signup", "dest": "/api/auth/signup.js" },
+    { "src": "/api/auth/signin", "dest": "/api/auth/signin.js" },
+    { "src": "/api/book", "dest": "/api/book.js" },
+    { "src": "/api/health", "dest": "/api/health.js" }
   ]
 }
