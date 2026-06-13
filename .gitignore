@@ -1,0 +1,9 @@
+node_modules/
+.env
+
+# Vercel local cache
+.vercel/
+
+# system files
+.DS_Store
+npm-debug.log
